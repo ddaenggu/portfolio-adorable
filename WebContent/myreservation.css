@@ -1,0 +1,94 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.bigshape{
+	width: 1280px;
+	border: 1px solid #CFCFCF;
+	margin: 100px 0;
+}
+.carttitle{
+	width: 1024px;
+	margin: 50px auto;
+	font-size: 20pt;
+	font-family: 'Staatliches', cursive;
+	border-bottom: 1px solid #EFEFEF;
+}
+.cartzone{
+	width: 1024px;
+	margin: 30px auto;
+}
+.carttable{
+	border-spacing: 0;
+}
+th{
+	color: #4B4B4B;
+	font-size: 12pt;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+}
+td{
+	border-bottom: 1px solid #CFCFCF;
+}
+.btnbox{
+	width: 1024px;
+	text-align: center;
+	margin: 50px auto;
+}
+.ordernum{
+	text-align: left;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 10px 3px;
+}
+.ordernum > a {
+	color: #4B4B4B;
+}
+.itemname, .itemprice, .peoplenumzone, .bookdatezone{
+	width: 150px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.imagezone{
+	width: 200px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.itemname > a {
+	color: black;
+}
+.iteminfo{
+	width: 224px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.goorder{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	background: #C6B8F3;
+}
+.goorder:hover{
+	opacity: 0.6;
+}
+.nocartinfo{
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+.nocartbtn{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.roomname{
+	font-size: 13pt;
+	font-weight: bold;
+}

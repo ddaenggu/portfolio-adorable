@@ -1,0 +1,152 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+.logoinfo{
+	font-size: 11pt;
+	color: #CFCFCF;
+	margin-top: 20px;
+	text-align: center;
+}
+.lookbookshape{
+	margin: 100px auto;
+	max-width: 1280px;
+	width: 1280px;
+}
+.writezone{
+	text-align: right;
+}
+.writebtn{
+	border: 1px solid #CFCFCF;
+	background: white;
+	width: 150px;
+	height: 50px;
+}
+.writebtn:hover{
+	opacity: 0.6;
+	color: red;
+}
+.besttitle{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 28pt;
+	text-align: center;
+	border-bottom: 3px solid #4B4B4B;
+	color: #4B4B4B;
+	margin-top: 50px;
+}
+.bestzone {
+	margin-top: 20px;
+}
+.bestzone ul li {
+	display: inline-block;
+	margin: 50px 10px 10px 10px;
+}
+.bestimg{
+	position: relative;
+}
+.besticon{
+	position: absolute;
+	top: -50px;
+	left: -40px;
+}
+.bestwriter{
+	font-size: 13pt;
+	font-weight: bold;
+}
+.likezone{
+	margin-left: 20px;
+}
+.dogfoot{
+	position: relative;
+	top: 8px;
+	margin-right: 5px;
+}
+.lookbookzone{
+	margin-top: 100px;
+	padding-top: 100px;
+	border-top: 2px solid #CFCFCF;
+}
+.lookbookzone ul li {
+	display: inline-block;
+	width: 24.5%;
+	margin-bottom: 20px;
+}
+.writer{
+	font-size: 10pt;
+}
+
+.writeshape{
+	margin: 100px auto;
+	max-width: 1280px;
+	width: 1280px;
+	border: 1px solid #CFCFCF;
+}
+.writetitle{
+	width: 1024px;
+	height: 30px;
+	border: 1px solid black;
+	text-align: center;
+}
+.writetitle2{
+	width: 1024px;
+	margin: 30px auto;
+}
+.writecontent2{
+	text-align: center;
+}
+.writecontent{
+	width: 1024px;
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	resize: none;
+	text-align: center;
+}
+.writefile{
+	width: 1024px;
+	margin-bottom: 30px;
+	
+}
+.writeproduct{
+	width: 1024px;
+	font-weight: bold;
+}
+.writeok{
+	width: 1024px;
+	margin: 30px auto;
+	text-align: center;
+}
+.noiteminfo{
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 30px auto;
+	text-align: center;
+}
+.writeinfo{
+	width: 1024px;
+	font-size: 11pt;
+}
+.writeimg {
+	width: 1024px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.ck{
+	margin-right: 20px;
+}
+input[type='checkbox'] {
+	appearance: none;
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 100%;
+	border: 1px solid #CFCFCF;
+	font-size: 10pt;
+}
+input[type='checkbox']:checked{
+	appearance: none;
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 100%;
+	background-color: #C6B8F3;
+	font-size: 10pt;
+}

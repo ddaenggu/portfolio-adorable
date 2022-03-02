@@ -1,0 +1,148 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.bigshape{
+	width: 1280px;
+	border: 1px solid #CFCFCF;
+	margin: 100px 0;
+}
+.carttitle{
+	width: 1024px;
+	margin: 50px auto;
+	font-size: 20pt;
+	font-family: 'Staatliches', cursive;
+	border-bottom: 1px solid #EFEFEF;
+}
+.cartzone{
+	width: 1024px;
+	margin: 30px auto;
+}
+.carttable{
+	border-spacing: 0;
+}
+th{
+	color: #4B4B4B;
+	font-size: 12pt;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+}
+td{
+	border-bottom: 1px solid #CFCFCF;
+}
+
+.imagezone{
+	width: 160px;
+	padding: 10px 3px;
+	text-align: center;
+}
+.iteminfozone{
+	width: 300px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.pricezone, .quantityzone, .pointzone, .totalpricezone{
+	width: 100px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.selectzone{
+	width: 164px;
+	padding: 10px 3px;
+	text-align: center;
+}
+.updatebox{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #CFCFCF;
+	background: white;
+	margin-top: 5px;
+	color: #4B4B4B;
+}
+.updatebox:hover{
+	opacity: 0.5;
+}
+.deletebtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 25px;
+	background: white;
+}
+.deletebtn:hover{
+	opacity: 0.5;
+}
+.itemname{
+	font-size: 13pt;
+	font-weight: bold;
+}
+.itemname > a {
+	color: black;
+}
+.quantitybox{
+	border: 1px solid #CFCFCF;
+	width: 50px;
+	height: 30px;
+}
+.sumzone{
+	margin: 50px 0;
+}
+.allprice, .deliveryprice{
+	width: 300px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.sumprice{
+	width: 424px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+td.allprice, td.deliveryprice, td.sumprice {
+	height: 50px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.cancelbtn{
+	border: none;
+	background: none;
+}
+.cancelbtn:hover{
+	opacity: 0.6;
+}
+.btnbox{
+	width: 1024px;
+	text-align: center;
+	margin: 50px auto;
+}
+.goshopping, .goorder{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	background: white;
+}
+.goorder{
+	background: #C6B8F3;
+}
+.goshopping:hover{
+	opacity: 0.6;
+}
+.goorder:hover{
+	opacity: 0.6;
+}
+.nocartinfo{
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+.nocartbtn{
+	text-align: center;
+	margin-bottom: 50px;
+}

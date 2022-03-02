@@ -1,0 +1,188 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.bodywidth{
+	width: 980px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+aside{
+	width: 260px;
+	margin: 0 30px 0 0;
+	position: absolute;
+}
+.mypagemenu ul li {
+	text-decoration: none;
+	list-style: none;
+	color: #4B4B4B;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 13pt;
+}
+.mypagesubmenu{
+	width: 210px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	margin: 0 30px 20px 0;
+}
+.mypagesubmenu:hover{
+	transition: 1s;
+	background-color: #C6B8F3;
+	letter-spacing: 2px;
+}
+.mypagemenu ul li:hover{
+	color: white;
+}
+.mypagemenu li .mmimg {
+	display: inline-block;
+	margin: 10px;
+}
+.mypagemenu li .menutext {
+	display: inline-block;
+	float: right;
+	margin: 15px 20px 15px 0;
+}
+section{
+	width: 1024px;
+	margin: 0 auto;
+}
+.mypage{
+	width: 720px;
+	border: 1px solid #CFCFCF;
+	margin-left: 260px;
+}
+.mypageshape{
+	text-align: center;
+}
+.mypetinfo{
+	font-family: 'Gaegu', cursive;
+	font-size: 24pt;
+	margin: 20px 0;
+}
+.subshape{
+	border: 1px solid #CFCFCF;
+	width: 450px;
+	text-align: left;
+}
+.subtop {
+	padding: 5px 10px;
+	color: black;
+	font-size: 14pt;
+	font-weight: bold;
+	border-bottom: 1px solid #CFCFCF;
+}
+.nothing{
+	font-size: 20pt;
+	font-weight: bold;
+	color: #CFCFCF;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.joinimage{
+	margin: 20px 0;
+}
+.mypetwrite{
+	margin-top: 10px;
+	width: 450px;
+	height: 35px;
+}
+.writebtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 35px;
+	background: white;
+}
+.writebtn:hover{
+	opacity: 0.6;
+}
+.writeleft{
+	float: left;
+}
+.searchright{
+	float: right;
+}
+.searchbox{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+.searchbtn{
+	width: 30px;
+	height: 30px;
+}
+.searchbtn:hover{
+	opacity: 0.6;
+}
+.searchlist {
+	margin: 20px;
+}
+.searchlist ul li {
+	list-style: none;
+	padding: 5px 0;
+	border-bottom: 1px solid #EFEFEF;
+	height: 60px;
+}
+.idzone{
+	float: left;
+}
+.idzone > a {
+	color: black;
+}
+.custimg{
+	border: 1px solid #CFCFCF;
+	border-radius: 50%;
+}
+.custid{
+	margin: 0 20px;
+	font-size: 12pt;
+	font-weight: bold;
+	position: relative;
+	bottom: 20px;
+	display: inline-block;
+	width: 50px;
+}
+.custname{
+	margin-right: 120px;
+	font-size: 11pt;
+	color: #BDBDBD;
+	position: relative;
+	bottom: 20px;
+}
+.addzone{
+	position: relative;
+	top: 12px;
+	float: right;
+}
+.addbtn, .requestbtn, .getbtn, .friendbtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 30px;
+	background: white;
+}
+.addbtn:hover{
+	opacity: 0.6;
+	color: red;
+}
+.requestbtn {
+	color: #6799FF;
+}
+.requestbtn:hover{
+	opacity: 0.6;
+}
+.getbtn{
+	color: red;
+}
+.getbtn:hover{
+	opacity: 0.6;
+}
+.friendbtn{
+	background: #C6B8F3;
+}
+.friendbtn:hover{
+	opacity: 0.6;
+}

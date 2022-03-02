@@ -1,0 +1,235 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+.logoinfo{
+	font-size: 11pt;
+	color: #CFCFCF;
+	margin-top: 20px;
+	text-align: center;
+}
+.lookbookshape{
+	margin: 100px auto;
+	max-width: 1280px;
+	width: 1280px;
+}
+.writeshape{
+	margin: 100px auto;
+	max-width: 1280px;
+	width: 1280px;
+	border: 1px solid #CFCFCF;
+}
+.writetitle{
+	width: 1024px;
+	height: 30px;
+	text-align: center;
+	border: none;
+	font-size: 20pt;
+	font-weight: bold;
+	margin-bottom: 5px;
+	font-family: 'Gaegu', cursive;
+}
+.writetitle2{
+	width: 1024px;
+	margin-top: 30px;
+}
+.writecontent2{
+	text-align: center;
+}
+.writecontent{
+	width: 1024px;
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: 30px;
+	resize: none;
+	text-align: center;
+	font-size: 14pt;
+	font-family: 'Gaegu', cursive;
+}
+.writefile{
+	width: 1024px;
+	margin-bottom: 30px;
+	
+}
+.writeproduct{
+	width: 1024px;
+	font-weight: bold;
+	font-size: 14pt;
+	border-bottom: 3px solid #CFCFCF;
+	padding-bottom: 20px;
+}
+.writeproduct > a {
+	color: #6799FF;
+	margin-right: 20px;
+}
+.writeok{
+	width: 1024px;
+	margin: 30px auto;
+	text-align: right;
+}
+.noiteminfo{
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 30px auto;
+	text-align: center;
+}
+.writeinfo{
+	width: 1024px;
+	font-size: 11pt;
+	border-bottom: 3px solid #CFCFCF;
+	margin-bottom: 30px;
+	padding-bottom: 3px;
+}
+.writeimg {
+	width: 1024px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.writebtn{
+	border: 1px solid #CFCFCF;
+	background: white;
+	width: 120px;
+	height: 40px;
+}
+.writebtn:hover{
+	opacity: 0.6;
+	color: red;
+}
+.likezone{
+	margin: 20px auto;
+	width: 1024px;
+}
+.iconzone{
+	width: 50px;
+	margin: 0;
+}
+.likenum{
+	font-size: 16pt;
+	font-weight: bold;
+	
+}
+.icon2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.iconbtn{
+	cursor: pointer;
+	background: none;
+	border: none;
+}
+.replyzone {
+	width: 1024px;
+	border-top: 3px solid #CFCFCF;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.writereply{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.replytxt{
+	border: 1px solid #CFCFCF;
+	width: 850px;
+	height: 30px;
+	margin-right: 20px;
+}
+.replybtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 35px;
+	background: white;
+}
+.replybtn:hover{
+	opacity: 0.6;
+	color: red;
+}
+.reply{
+	border-top: 1px solid #CFCFCF;
+	font-size: 16pt;
+	font-family: 'Gaegu', cursive;
+	margin: 20px auto;
+}
+.likebtn{
+	width: 30px;
+	background: none;
+	border: none;
+	font-size: 18pt;
+	color: red;
+	cursor: pointer;
+}
+.likebtn:hover{
+	font-weight: bold;
+}
+.replyshape{
+	width: 1024px;
+	background: #f8f8f8;
+	padding: 10px 0;
+}
+.replyshape ul li {
+	display: inline-block;
+}
+.replyimg{
+	width: 50px;
+	margin: 0 20px 0 20px;
+}
+.replyimg2{
+	border-radius: 50%;
+}
+.writerdate{
+	float: left;
+}
+.re_reply{
+	float: right;
+}
+.replyinfo{
+	width: 900px;
+}
+.replywriter{
+	font-weight: bold;
+	font-size: 12pt;
+	margin-right: 10px;
+}
+.replydate{
+	font-size: 10pt;
+	color: #BDBDBD;
+}
+.re_replybtn{
+	border: none;
+	background: none;
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+.re_replybtn:hover{
+	text-decoration: underline;
+}
+.replycontent{
+	width: 800px;
+	float: left;
+	margin-top: 10px;
+}
+.upddel{
+	float: right;
+	margin-top: 10px;
+}
+.re_replyimg{
+	width: 50px;
+	margin: 0 20px 0 80px;
+}
+.re_replycontent{
+	width: 750px;
+	float: left;
+	margin-top: 10px;
+}
+.replyinfo2{
+	width: 840px;
+}
+.updatereplyzone{
+	width: 1024px;
+	margin: 30px auto;
+	font-size: 14pt;
+	font-weight: bold;
+	line-height: 40px;
+}

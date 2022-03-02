@@ -1,0 +1,104 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+section{
+	width: 1280px;
+}
+.boardshape{
+	width: 1024px;
+	border: 1px solid #EFEFEF;
+	margin: 100px auto;
+}
+.detailshape{
+	padding: 20px;
+}
+.boardtitle{
+	color: #4B4B4B;
+	font-family: 'Hammersmith One', sans-serif;
+}
+h2 > a {
+	color: #4B4B4B;
+}
+.boardlist{
+	position: relative;
+	margin-top: 30px;
+}
+.contenttitle{
+	width: 950px;
+	height: 30px;
+	padding: 5px;
+	border: none;
+	font-size: 14pt;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+.contentname{
+	width: 70px;
+	height: 20px;
+	padding: 5px;
+	font-size: 11pt;
+	margin-bottom: 5px;
+	border: none;
+}
+.contentlook{
+	width: 60px;
+	height: 20px;
+	padding: 5px;
+	font-size: 11pt;
+	margin-bottom: 5px;
+	border: none;
+}
+.contentdate{
+	width: 100px;
+	height: 20px;
+	padding: 5px;
+	font-size: 11pt;
+	margin-bottom: 5px;
+	border: none;
+}
+hr{
+	border: 1px solid #CFCFCF;
+}
+.content{
+	width: 950px;
+	height: 400px;
+	margin: 30px 0;
+	padding: 10px;
+	border: 1px solid #CFCFCF;
+	font-size: 14pt;
+	text-align: left;
+	resize: none;
+}
+.deletebtn, .writebtn{
+	position: absolute;
+	width: 100px;
+	height: 35px;
+	border: 1px solid #CFCFCF;
+	background-color: white;
+}
+.listbtn{
+	width: 100px;
+	height: 35px;
+	border: 1px solid #CFCFCF;
+	background-color: white;
+	margin-right: 10px;
+}
+.listbtn:hover{
+	opacity: 0.6;
+}
+.writebtn{
+	background-color: #C6B8F3;
+	right: 0;
+}
+.deletebtn:hover{
+	opacity: 0.6;
+}
+.writebtn:hover{
+	opacity: 0.6;
+}
+.joinimage{
+	text-align: center;
+	padding-top: 20px;
+}

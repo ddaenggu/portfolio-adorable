@@ -1,0 +1,207 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.bigshape{
+	width: 1280px;
+	border: 1px solid #CFCFCF;
+	margin: 100px 0;
+}
+.carttitle{
+	width: 1024px;
+	margin: 50px auto;
+	font-size: 20pt;
+	font-family: 'Staatliches', cursive;
+	border-bottom: 1px solid #EFEFEF;
+}
+.cartzone{
+	width: 1024px;
+	margin: 30px auto;
+}
+.carttable{
+	border-spacing: 0;
+}
+th{
+	color: #4B4B4B;
+	font-size: 12pt;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+}
+td{
+	border-bottom: 1px solid #CFCFCF;
+}
+.checkboxzone{
+	width: 80px;
+	padding: 10px 3px;
+	text-align: center;
+}
+.imagezone{
+	width: 200px;
+	padding: 10px 3px;
+	text-align: center;
+}
+.iteminfozone{
+	width: 424px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.pricezone, .quantityzone, .pointzone, .totalpricezone{
+	width: 100px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+
+.updatebox{
+	width: 50px;
+	height: 30px;
+	border: 1px solid #CFCFCF;
+	background: white;
+	margin-top: 5px;
+	color: #4B4B4B;
+}
+.updatebox:hover{
+	opacity: 0.5;
+}
+.deletebtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 25px;
+	background: white;
+}
+.deletebtn:hover{
+	opacity: 0.5;
+}
+.itemname{
+	font-size: 13pt;
+	font-weight: bold;
+}
+.itemname > a {
+	color: black;
+}
+.quantitybox{
+	border: 1px solid #CFCFCF;
+	width: 50px;
+	height: 30px;
+}
+.sumzone{
+	margin: 50px 0;
+}
+.allprice, .usepointzone, .deliveryprice{
+	width: 200px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.sumprice{
+	width: 424px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+td.allprice, td.deliveryprice, td.usepointzone, td.sumprice {
+	height: 50px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.cancelbtn{
+	border: none;
+	background: none;
+}
+.cancelbtn:hover{
+	opacity: 0.6;
+}
+.btnbox{
+	width: 1024px;
+	text-align: center;
+	margin: 50px auto;
+}
+.goorder{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	background: #C6B8F3;
+}
+.goorder:hover{
+	opacity: 0.6;
+}
+.nocartinfo{
+	font-size: 20pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+.nocartbtn{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.orderzone{
+	width: 1024px;
+	margin: 20px auto;
+	padding: 10px;
+	background: #FAEBFF;
+	border-radius: 10px;
+}
+.ordercustomer{
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.customerinfo{
+	font-size: 11pt;
+	line-height: 25px;
+}
+.addresszone1 ul li {
+	display: inline-block;
+	padding-right: 80px; 
+}
+.addresszone2 ul li {
+	display: inline-block;
+	padding-right: 170px; 
+}
+.detailaddresszone1, .detailaddresszone2 {
+	margin: 10px 0;
+	font-size: 11pt;
+	line-height: 25px;
+}
+input[type='radio']:checked{
+	appearance: none;
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 100%;
+	background-color: #C6B8F3;
+	font-size: 10pt;
+}
+.borderline{
+	border: 1px solid #CFCFCF;
+	height: 20px;
+}
+.bt{
+	border: 1px solid #CFCFCF;
+	width: 80px;
+	height: 20px;
+	background: white;
+}
+.bt:hover{
+	opacity: 0.5;
+}
+.pointbox, .pointbtn{
+	width: 80px;
+	height: 25px;
+	border: 1px solid #CFCFCF;
+}
+.pointbtn{
+	background: white;
+}
+.pointbtn:hover{
+	opacity: 0.6;
+}
+.pointinfo{
+	font-size: 10pt;
+	color: #BDBDBD;
+}

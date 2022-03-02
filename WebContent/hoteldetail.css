@@ -1,0 +1,61 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.hotelshape{
+	margin: 100px 0;
+}
+.hoteltitle{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 28pt;
+	text-align: center;
+	color: #002266;
+	border-bottom: 3px solid #002266;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+.hotelsubtitle{
+	color: #002266;
+	font-size: 14pt;
+	margin: 10px 0;
+	font-weight: bold;
+}
+.hotelinfo ul li {
+	display: inline-block;
+}
+.hoteldetailinfo{
+	padding: 95px 0;
+	margin-bottom: 20px;
+	font-size: 14pt;
+	text-align: center;
+	border: 1px solid #CFCFCF;
+}
+.hotelname{
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #002266;
+}
+.priceinfo{
+	border: 1px solid #002266;
+	text-align: right;
+	font-size: 14pt;
+	font-weight: bold;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.bookbtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 35px;
+	margin-left: 10px;
+	background: white;
+	color: red;
+}
+.bookbtn:hover {
+	opacity: 0.6;
+}

@@ -1,0 +1,101 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+section{
+	width: 1280px;
+}
+.boardshape{
+	width: 1024px;
+	height: auto;
+	border: 1px solid #EFEFEF;
+	margin: 100px auto;
+}
+.detailshape{
+	padding: 20px;
+}
+.boardtitle{
+	color: #4B4B4B;
+	font-family: 'Hammersmith One', sans-serif;
+}
+h2 > a {
+	color: #4B4B4B;
+}
+.boardlist{
+	margin-top: 30px;
+	border-top: 1px solid #4B4B4B;
+}
+.boardtable{
+	border-spacing: 0;
+}
+th{
+	border-bottom: 1px solid #CFCFCF;
+}
+td{
+	border-bottom: 1px solid #F5F5F5;
+}
+.th_board{
+	width: 70px;
+	height: 35px;
+	padding: 3px;
+	text-align: center;
+	color: #6F6F6F;
+}
+.th_title{
+	width: 690px;
+	height: 35px;
+	padding: 3px;
+}
+.th_writer{
+	width: 70px;
+	height: 35px;
+	padding: 3px;
+	text-align: center;
+}
+.th_date{
+	width: 90px;
+	height: 35px;
+	padding: 3px;
+	text-align: center;
+}
+.th_look{
+	width: 60px;
+	height: 35px;
+	padding: 3px;
+	text-align: center;
+}
+.th_title > a{
+	color: black;
+}
+.boardbottom{
+	margin: 30px 0;
+	position: relative;
+}
+.boardpage{
+	text-align: center;
+}
+.boardwrite{
+	position: absolute;
+	top: -5px;
+}
+.write, .lookmywriting{
+	width: 100px;
+	height: 35px;
+	border: 1px solid #CFCFCF;
+	background-color: white;
+}
+.boardmywriting{
+	position: absolute;
+	top: -5px;
+	right: 0;
+}
+.write{
+	background-color: #C6B8F3;
+}
+.write:hover{
+	opacity: 0.6;
+}
+.lookmywriting:hover{
+	opacity: 0.6;
+}

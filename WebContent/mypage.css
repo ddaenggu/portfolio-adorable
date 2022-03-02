@@ -1,0 +1,112 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.bodywidth{
+	width: 980px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+aside{
+	width: 260px;
+	margin: 0 30px 0 0;
+	position: absolute;
+}
+.mypagemenu ul li {
+	text-decoration: none;
+	list-style: none;
+	color: #4B4B4B;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 13pt;
+}
+.mypagesubmenu{
+	width: 210px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	margin: 0 30px 20px 0;
+}
+.mypagesubmenu:hover{
+	transition: 1s;
+	background-color: #C6B8F3;
+	letter-spacing: 2px;
+}
+.mypagemenu ul li:hover{
+	color: white;
+}
+.mypagemenu li .mmimg {
+	display: inline-block;
+	margin: 10px;
+}
+.mypagemenu li .menutext {
+	display: inline-block;
+	float: right;
+	margin: 15px 20px 15px 0;
+}
+section{
+	width: 1024px;
+	margin: 0 auto;
+}
+.mypage{
+	width: 720px;
+	height: 350px;
+	border: 1px solid #CFCFCF;
+	margin-left: 260px;
+}
+.mypageshape{
+	text-align: center;
+	margin: 24px 0;
+}
+.subshape{
+	height: 200px;
+}
+.subshape ul li {
+	list-style: none;
+	display: inline-block;
+}
+.imgarea{
+	margin-right: 50px;
+}
+#mypetimg{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #CFCFCF;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.imgchange{
+	width: 80px;
+	height: 25px;
+	padding: 5px;
+	border: 1px solid #CFCFCF;
+	border-radius: 20px;
+	color: #4B4B4B;
+	background-color: white;
+	position: relative;
+	left: 80px;
+	bottom: 25px;
+}
+.imgchange:hover{
+	opacity: 0.6;
+}
+.myinfo{
+	text-align: left;
+	font-size: 12pt;
+	font-weight: bold;
+	line-height: 30px;
+	color: #4B4B4B;
+	position: relative;
+	bottom: 30px;
+}
+.myinfobox{
+	border: 1px solid #CFCFCF;
+	background-color: #C6B8F3;
+	width: 250px;
+	height: 35px;
+	font-size: 11pt;
+}
+.myinfobox:hover{
+	opacity: 0.6;
+}
+.joinimage{
+	padding-top: 20px;
+}

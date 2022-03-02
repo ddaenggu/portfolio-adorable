@@ -1,0 +1,315 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.bodywidth{
+	width: 980px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+aside{
+	width: 260px;
+	margin: 0 30px 0 0;
+	position: absolute;
+}
+.mypagemenu ul li {
+	text-decoration: none;
+	list-style: none;
+	color: #4B4B4B;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 13pt;
+}
+.mypagesubmenu{
+	width: 210px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	margin: 0 30px 20px 0;
+}
+.mypagesubmenu:hover{
+	transition: 1s;
+	background-color: #C6B8F3;
+	letter-spacing: 2px;
+}
+.mypagemenu ul li:hover{
+	color: white;
+}
+.mypagemenu li .mmimg {
+	display: inline-block;
+	margin: 10px;
+}
+.mypagemenu li .menutext {
+	display: inline-block;
+	float: right;
+	margin: 15px 20px 15px 0;
+}
+section{
+	width: 1024px;
+	margin: 0 auto;
+}
+.mypage{
+	width: 720px;
+	border: 1px solid #CFCFCF;
+	margin-left: 260px;
+}
+.mypageshape{
+	text-align: center;
+}
+.mypetinfo{
+	font-family: 'Gaegu', cursive;
+	font-size: 24pt;
+	margin: 20px 0;
+}
+.subshape{
+	border: 1px solid #CFCFCF;
+	width: 302px;
+	text-align: left;
+}
+.subshape ul li {
+	display: inline-block;
+	width: 32%;
+}
+
+.joinimage{
+	margin: 20px 0;
+}
+.writebox{
+	border: 1px solid #CFCFCF;
+	background: #FCFCFC;
+	width: 300px;
+	height: 320px;
+}
+.mypetwrite{
+	text-align: center;
+	margin: 20px auto;
+	border: 1px solid #CFCFCF;
+	width: 450px;
+}
+.mypettop{
+	height: 40px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.mypetbtn2{
+	float: left;
+	font-family: 'Gaegu', cursive;
+	line-height: 20px;
+	font-size: 16pt;
+	padding: 10px;
+}
+.mypetbtn2 >a {
+	color: #FFB2D9;
+}
+.mypetbtn2 > a:hover{
+	letter-spacing: 3px;
+	transition: 1s;
+}
+.mypetbtn{
+	float: right;
+	position: relative;
+}
+.mypetwrite > a {
+	float: left;
+}
+.mypetimg{
+}
+.mypetid{
+	margin: 5px 0 5px 10px;
+	font-family: 'Gaegu', cursive;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: left;
+}
+.mypetcontent{
+	margin-left: 20px;
+	font-family: 'Gaegu', cursive;
+	font-size: 18pt;
+}
+.mypetdate{
+	font-size: 11pt;
+	color: #CFCFCF;
+	margin: 5px 0 5px 10px;
+	text-align: left;
+}
+.mypetsub{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+	padding-left: 5px;
+}
+.mypetsub ul li {
+	list-style: none;
+	padding: 3px;
+}
+.subbtn{
+	width: 50px;
+	height: 30px;
+	background: white;
+	border: 1px solid #CFCFCF;
+}
+.subbtn:hover{
+	opacity: 0.6;
+}
+.cancelbtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 35px;
+	background: white;
+	margin-top: 20px;
+}
+.cancelbtn:hover{
+	opacity: 0.6;
+}
+.writebtn{
+	border: 1px solid #CFCFCF;
+	width: 100px;
+	height: 35px;
+	background: #C6B8F3;
+	margin-top: 20px;
+}
+.writebtn:hover{
+	opacity: 0.6;
+}
+.filebox{
+	border: 1px solid #CFCFCF;
+	background: white;
+	width: 100px;
+	padding: 10px;
+	font-size: 10pt;
+}
+.filebox:hover{
+	opacity: 0.6;
+}
+input[type=file]{
+	display: none;
+}
+.fileinfo{
+	color: #CFCFCF;
+	font-size: 9pt;
+	margin-top: 20px;
+}
+.mypettext{
+	resize: none;
+	border: 1px solid #CFCFCF;
+	width: 200px;
+	height: 200px;
+	margin: 20px 0;
+	padding: 5px;
+}
+.listbtn{
+	border: 1px solid #CFCFCF;
+	width: 50px;
+	height: 30px;
+	background: white;
+}
+.replyzone {
+	border-top: 2px solid #CFCFCF;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.writereply{
+	text-align: center;
+	margin: 30px 0;
+}
+.replytxt{
+	border: 1px solid #CFCFCF;
+	width: 300px;
+	height: 25px;
+	margin-right: 20px;
+}
+.replybtn{
+	border: 1px solid #CFCFCF;
+	width: 80px;
+	height: 30px;
+	background: white;
+}
+.replybtn:hover{
+	opacity: 0.6;
+	color: red;
+}
+.reply{
+	font-size: 16pt;
+	font-family: 'Gaegu', cursive;
+	margin: 10px 0 10px 10px;
+	text-align: left;
+}
+.reply > a {
+	color: black;
+}
+.reply > a:hover{
+	color: #6799FF;
+}
+
+.replyshape{
+	
+	background: #f8f8f8;
+	padding: 10px 0;
+}
+.replyshape ul li {
+	display: inline-block;
+}
+.replyimg{
+	width: 50px;
+	margin: 0 20px 0 20px;
+}
+.replyimg2{
+	border-radius: 50%;
+}
+.writerdate{
+	float: left;
+}
+.re_reply{
+	float: right;
+}
+.replyinfo{
+	width: 350px;
+}
+.replywriter{
+	font-weight: bold;
+	font-size: 12pt;
+	margin-right: 10px;
+}
+.replydate{
+	font-size: 10pt;
+	color: #BDBDBD;
+}
+.re_replybtn{
+	border: none;
+	background: none;
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+.re_replybtn:hover{
+	text-decoration: underline;
+}
+.replycontent{
+	width: 280px;
+	float: left;
+	margin-top: 10px;
+	text-align: left;
+}
+.upddel{
+	float: right;
+	margin-top: 10px;
+}
+.re_replyimg{
+	width: 50px;
+	margin: 0 20px 0 50px;
+}
+.re_replycontent{
+	width: 230px;
+	float: left;
+	margin-top: 10px;
+	text-align: left;
+}
+.replyinfo2{
+	width: 320px;
+	height: 20px;
+}
+.mypetreplycontent{
+	margin: 10px;
+	font-family: 'Gaegu', cursive;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: left;
+}

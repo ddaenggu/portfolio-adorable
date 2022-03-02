@@ -1,0 +1,117 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.hotelshape{
+	margin: 100px 0;
+	border: 1px solid #CFCFCF;
+}
+.reservationtitle{
+	width: 1024px;
+	margin: 50px auto;
+	font-size: 20pt;
+	font-family: 'Staatliches', cursive;
+	border-bottom: 1px solid #EFEFEF;
+}
+.reservation zone {
+	width: 1024px;
+	margin: 30px auto;
+}
+.reservationtable{
+	border-spacing: 0;
+}
+th{
+	color: #4B4B4B;
+	font-size: 12pt;
+	border-top: 1px solid #CFCFCF;
+	border-bottom: 1px solid #CFCFCF;
+}
+td{
+	border-bottom: 1px solid #CFCFCF;
+}
+.imgzone, .checkinoutzone, .pricezone{
+	width: 200px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.peoplenumzone, .pointzone{
+	width: 100px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.infozone{
+	width: 224px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.roomname{
+	font-weight: bold;
+	font-size: 13pt;
+}
+.customerzone{
+	width: 1024px;
+	margin: 20px auto;
+	padding: 10px;
+	background: #FAEBFF;
+	border-radius: 10px;
+}
+.customertitle{
+	font-size: 14pt;
+	font-weight: bold;
+	margin: 5px 0;
+}
+.customerinfo{
+	font-size: 11pt;
+	line-height: 25px;
+}
+.pointbox{
+	width: 80px;
+	height: 25px;
+	border: 1px solid #CFCFCF;
+}
+
+.pointinfo{
+	font-size: 10pt;
+	color: #BDBDBD;
+}
+.sumzone{
+	margin: 50px 0;
+}
+.allprice, .usepointzone, .deliveryprice{
+	width: 200px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+.sumprice{
+	width: 424px;
+	padding: 10px 3px;
+	text-align: center;
+	font-size: 11pt;
+}
+td.allprice, td.deliveryprice, td.usepointzone, td.sumprice {
+	height: 50px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.btnbox{
+	width: 1024px;
+	text-align: center;
+	margin: 50px auto;
+}
+.goorder{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #CFCFCF;
+	background: #C6B8F3;
+}
+.goorder:hover{
+	opacity: 0.6;
+}

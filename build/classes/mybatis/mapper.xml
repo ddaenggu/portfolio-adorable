@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="wear">
+
+<select id="selallwear" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category in ('아우터','탑/티셔츠','올인원/원피스','악세사리') order by pb_date desc
+</select>
+
+<select id="selallwearorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category in ('아우터','탑/티셔츠','올인원/원피스','악세사리') order by pb_title
+</select>
+
+<select id="selallwearorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category in ('아우터','탑/티셔츠','올인원/원피스','악세사리') order by pro_price
+</select>
+
+<select id="selallwearorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category in ('아우터','탑/티셔츠','올인원/원피스','악세사리') order by pro_price desc
+</select>
+
+<select id="selouter" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '아우터' order by pb_date desc
+</select>
+
+<select id="selouterorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '아우터' order by pb_title
+</select>
+
+<select id="selouterorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '아우터' order by pro_price
+</select>
+
+<select id="selouterorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '아우터' order by pro_price desc
+</select>
+
+<select id="seltop" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '탑/티셔츠' order by pb_date desc
+</select>
+
+<select id="seltoporderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '탑/티셔츠' order by pb_title
+</select>
+
+<select id="seltoporderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '탑/티셔츠' order by pro_price
+</select>
+
+<select id="seltoporderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '탑/티셔츠' order by pro_price desc
+</select>
+
+<select id="seldress" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '올인원/원피스' order by pb_date desc
+</select>
+
+<select id="seldressorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '올인원/원피스' order by pb_title
+</select>
+
+<select id="seldressorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '올인원/원피스' order by pro_price
+</select>
+
+<select id="seldressorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '올인원/원피스' order by pro_price desc
+</select>
+
+<select id="selacc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '악세사리' order by pb_date desc
+</select>
+
+<select id="selaccorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '악세사리' order by pb_title
+</select>
+
+<select id="selaccorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '악세사리' order by pro_price
+</select>
+
+<select id="selaccorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category = '악세사리' order by pro_price desc
+</select>
+
+<select id="selalltoy" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name 
+and product.category in ('봉제장난감','낚시대','스크래쳐') order by pb_date desc
+</select>
+
+
+
+<select id="selprocode" resultType="int">
+select pro_code from product where pro_name = #{pro_name} and pro_size = #{pro_size} and pro_color = #{pro_color}
+</select>
+
+<insert id="inscart" parameterType="model.ModelProduct">
+insert into cart values (default, #{id}, #{pro_code}, #{cart_quantity}, #{cart_price})
+</insert>
+
+<select id="selcart" resultType="model.ModelProduct">
+select * from cart,product,productBoard where id = #{id} and cart.pro_code=product.pro_code and
+ product.pro_name=productBoard.pb_title order by cart_num
+</select>
+
+<update id="updcartquantity" parameterType="model.ModelProduct">
+update cart set cart_quantity = #{cart_quantity} where cart_num = #{cart_num}
+</update>
+
+<delete id="delcart" parameterType="model.ModelProduct">
+delete from cart where cart_num = #{cart_num}
+</delete>
+
+<select id="seloneprod" resultType="model.ModelProduct">
+select * from customer,product,productBoard where id = #{id} and pro_name = #{pro_name} and pro_color = #{pro_color} and pro_size = #{pro_size} and product.pro_name = productBoard.pb_title
+</select>
+
+<select id="selmaxordernum" resultType="int">
+select max(order_num) from productOrder
+</select>
+
+<insert id="insproductorder" parameterType="model.ModelProduct">
+insert into productOrder values (default, #{ordercode}, #{id}, #{pro_code}, #{order_quantity}, #{order_deliveryprice}, #{order_usepoint}, now(), 
+#{order_zipcode}, #{order_address}, #{order_detailaddress}, #{order_extraaddress})
+</insert>
+
+<update id="updproquantity" parameterType="model.ModelProduct">
+update product set pro_quantity = pro_quantity - #{order_quantity} where pro_code = #{pro_code}
+</update>
+
+<update id="updpoint" parameterType="model.ModelProduct">
+update customer set point = point + #{point} where id = #{id}
+</update>
+
+<insert id="insallorder" parameterType="model.ModelProduct">
+insert into productOrder values (default, #{ordercode}, #{id}, #{pro_code}, #{order_quantity}, #{order_deliveryprice}, #{order_usepoint}, now(), 
+#{order_zipcode}, #{order_address}, #{order_detailaddress}, #{order_extraaddress})
+</insert>
+
+<select id="selmyorder" resultType="model.ModelProduct">
+select * from productOrder,product,productBoard,customer where customer.id = #{id} and productOrder.id = customer.id and productOrder.pro_code = product.pro_code and product.pro_name = productBoard.pb_title order by pb_title
+</select>
+
+<select id="selordercode" resultType="model.ModelProduct">
+select distinct ordercode, order_date from productOrder where id = #{id} order by ordercode desc
+</select>
+
+<select id="selcust" resultType="model.ModelProduct">
+select * from customer where id = #{id}
+</select>
+
+<select id="selallprod" resultType="model.ModelProduct">
+select * from product,productBoard where pro_code = #{pro_code} and pro_name = #{pro_name} and product.pro_name = productBoard.pb_title
+</select>
+
+<delete id="delcartprocode" parameterType="model.ModelProduct">
+delete from cart where id = #{id} and pro_code = #{pro_code}
+</delete>
+
+<select id="selpetskind" resultType="String">
+select petskind from customer where id = #{id}
+</select>
+
+<select id="selrecommend" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name and recommend = #{petskind} order by pb_date desc
+</select>
+
+<select id="selallrecommend" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name order by pb_date desc
+</select>
+
+<select id="selrecommendorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name and recommend = #{petskind} order by pb_title
+</select>
+
+<select id="selallrecommendorderbyname" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name order by pb_title
+</select>
+
+<select id="selrecommendorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name and recommend = #{petskind} order by pro_price
+</select>
+
+<select id="selallrecommendorderbyprice" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name order by pro_price
+</select>
+
+<select id="selrecommendorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name and recommend = #{petskind} order by pro_price desc
+</select>
+
+<select id="selallrecommendorderbypricedesc" resultType="model.ModelProduct">
+select distinct pb_title, pb_img1, pb_img2, pro_price, pb_date from productBoard,product where productBoard.pb_title=product.pro_name order by pro_price desc
+</select>
+
+
+
+
+</mapper>

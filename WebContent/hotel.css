@@ -1,0 +1,180 @@
+@charset "UTF-8";
+*{
+	margin: 0 auto;
+}
+section{
+	max-width: 1280px;
+	width: 1280px;
+}
+.hotelshape{
+	margin: 100px 0;
+}
+.hoteltitle{
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 28pt;
+	text-align: center;
+	color: #002266;
+	border-bottom: 3px solid #002266;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+}
+.hotelsubtitle{
+	color: #002266;
+	font-size: 14pt;
+	margin: 10px 0;
+	font-weight: bold;
+}
+.hotelinfo ul li {
+	display: inline-block;
+	width: 49.5%;
+}
+.hotelname{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14pt;
+	font-weight: bold;
+}
+.hotelname > a {
+	color: black;
+}
+.hotelimg{
+	position: relative;
+}
+.hotelimg:hover{
+	opacity: 0.6;
+}
+.hotelimg:hover .hotelgo{
+	transition: 1s;
+	opacity: 1;
+}
+.hotelgo{
+	width: 620px;
+	height: 400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	font-size: 40pt;
+	font-weight: bold;
+	line-height: 400px;
+	opacity: 0;
+}
+.hotelgo > a {
+	color: black;
+}
+.roomtitle{
+	font-size: 26pt;
+	text-align: center;
+	color: #002266;
+	border-bottom: 3px solid #002266;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+.roomsubtitle{
+	color: #CFCFCF;
+	font-size: 10pt;
+	margin: 10px 0;
+	font-weight: normal;
+}
+.selectzone{
+	text-align: center;
+}
+.selectzone ul li {
+	display: inline-block;
+}
+.selecttitle{
+	color: #002266;
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: left;
+}
+.datebox1, .datebox2{
+	border: 1px solid black;
+	height: 35px;	
+}
+.datebox1{
+	margin-right: 20px;
+}
+.datebox2{
+	margin-right: 100px;
+}
+.peoplebox{
+	border: 1px solid black;
+	width: 100px;
+	height: 35px;
+}
+.searchzone{
+	text-align: center;
+	margin: 50px 0;
+}
+.searchbtn{
+	width: 300px;
+	height: 50px;
+	background: #002266;
+	color: white;
+	font-weight: bold;
+	border: 1px solid #CFCFCF;
+	letter-spacing: 3px;
+}
+.searchbtn:hover{
+	opacity: 0.6;
+}
+.roominfo{
+	width: 1024px;
+	margin-top: 50px;
+}
+.roomnuminfo{
+	font-size: 11pt;
+	border-bottom: 1px solid #CFCFCF;
+	padding-bottom: 10px;
+}
+.roomtable{
+	border-spacing: 0;
+	margin-top: 50px;
+}
+.td_img {
+	width: 324px;
+	text-align: center;
+}
+.td_info1, .td_info2{
+	width: 350px;
+	text-align: center;
+}
+.td_btn{
+	border: 1px solid #CFCFCF;
+	padding: 0 15px;
+	position: relative;
+	bottom: 5px;
+}
+.selectroom{
+	float: right;
+}
+.infobtn{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #CFCFCF;
+	color: white;
+	border-radius: 30px;
+	background: #8C8C8C;
+}
+.infobtn:hover{
+	background: #F15F5F;
+	transition: 0.3s;
+}
+.roomname{
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: left;
+}
+.roomnumber{
+	font-size: 10pt;
+	color: #BDBDBD;
+	text-align: right;
+}
+.roomprice{
+	font-size: 12pt;
+	font-weight: bold;
+	text-align: right;
+}

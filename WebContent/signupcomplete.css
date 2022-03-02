@@ -1,0 +1,41 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.loginok{
+	width: 500px;
+	height: 350px;
+	border: 1px solid #CFCFCF;
+	margin: 100px auto;
+}
+form{
+	text-align: center;
+	margin: 73px 0px;
+}
+.loginokinfo{
+	font-size: 16pt;
+	font-family: "맑은 고딕";
+	font-weight: bold;
+}
+.loginbox{
+	border: 1px solid #CFCFCF;
+	background-color: #C6B8F3;
+	width: 250px;
+	height: 35px;
+}
+.loginbox:hover{
+	opacity: 0.6;
+}
+.homebox{
+	margin-top: 5px;
+	border: 1px solid #CFCFCF;
+	background-color: white;
+	width: 250px;
+	height: 35px;
+}
+.homebox:hover{
+	opacity: 0.6;
+}
+.joinimage{
+	padding-top: 20px;
+}
